@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le compte de Monte-Cristo - CINEVERSE</title>
+</head>
+<style>
+         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+         .poppins-extrabold-italic {
+         font-family: "Poppins", sans-serif;
+         font-weight: 800;
+         font-style: italic;
+         }
+
+        body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.tmdb.org/t/p/original/iOfiPCgyhkFM5XL2BcXJ24E9xXe.jpg");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0; 
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: regular;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 100px;
+            margin-left: 30px;
+            position: absolute;
+        }
+        .video-container {
+            position: relative;
+            width: 450px;
+        }
+        .video {
+            border-radius: 5px;
+            width: 100%;
+        }
+        .resume{
+          max-width: 450px;
+          color: #ADADAD;
+          font-size: 15px;
+          text-align: justify;
+          line-height: 1.3;
+        }
+        h1 {
+        padding-right: 20px;
+        font-size: 210%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      .genres a {
+        text-decoration: none;
+        color: white;
+      }
+      .genres a:hover  {
+        color: #DF2935;
+      }
+</style>
+<body>
+    <header class="header">
+        <div class="logo">
+            <svg width="" height="50" viewBox="0 0 321 61" fill="none" xmlns="http://www.w3.org/2000/svg">DF2935
+                <path d="M0.579599 29.9152C1.5732 24.1215 3.67079 18.9685 6.87238 14.4562C10.074 9.88815 14.1036 6.3507 18.9611 3.84385C23.8187 1.28128 29.1179 0 34.8587 0C39.6611 0 43.8563 0.891327 47.4443 2.67398C51.0323 4.45663 53.8199 6.99134 55.807 10.2781C57.7942 13.5649 58.8706 17.4366 59.0362 21.8932H41.5655C40.9031 19.7206 39.7439 18.0494 38.0879 16.8795C36.4319 15.7096 34.3895 15.1247 31.9607 15.1247C28.2071 15.1247 24.9779 16.4617 22.2731 19.1357C19.5683 21.8097 17.8296 25.4028 17.0568 29.9152C16.836 31.085 16.7256 32.3384 16.7256 33.6754C16.7256 37.1293 17.6088 39.859 19.3751 41.8645C21.1967 43.8143 23.6807 44.7892 26.8271 44.7892C29.2559 44.7892 31.4915 44.2042 33.5339 43.0344C35.6315 41.8645 37.3703 40.1933 38.7503 38.0207H56.3038C53.6543 44.7613 49.4867 50.1093 43.8011 54.0645C38.1155 57.9641 31.6295 59.9139 24.3431 59.9139C19.3199 59.9139 14.9592 58.939 11.2608 56.9892C7.61758 55.0394 4.82999 52.2819 2.89799 48.7166C0.965998 45.1513 0 41.0289 0 36.3494C0 34.1768 0.1932 32.0321 0.579599 29.9152Z" fill="#DF2935"/>
+                <path d="M71.746 0.584931L61.4788 59.4961H45.1673L55.5172 0.584931H71.746Z" fill="white"/>
+                <path d="M115.133 59.4961H98.8215L83.0896 26.5727L77.2936 59.4961H60.982L71.332 0.584931H87.5608L103.376 33.9261L109.171 0.584931H125.4L115.133 59.4961Z" fill="#DF2935"/>
+                <path d="M136.599 13.537L134.943 23.3138H153.573L151.337 35.7645H132.707L130.803 46.4604L152.897 46.5438L155.063 59.4961H112.256L122.606 0.584931H162.515L157.713 13.537H136.599Z" fill="white"/>
+                <path d="M162.515 0.584931L168.311 43.0344L188.928 0.584931H206.234C184.206 16.4093 187.663 36.4898 175.763 59.4961H155.063L145.21 0.584931H162.515Z" fill="#DF2935"/>
+                <path d="M194.724 13.537L193.068 23.3138H211.698L209.463 35.7645H190.833L188.928 46.4604H210.042L207.807 59.4961H175.763L180.731 0.584931H218.074L215.838 13.537H194.724Z" fill="white"/>
+                <path d="M239.871 0.584911C245.998 0.584911 250.663 1.97761 253.864 4.76301C257.066 7.4927 258.667 11.1416 258.667 15.7096C258.667 17.1023 258.556 18.3557 258.335 19.4699C257.673 23.4809 255.989 27.0183 253.285 30.0823C250.58 33.0905 246.992 35.2352 242.521 36.5165L251.629 59.496H233.578L225.795 37.77H224.056L220.247 59.496H203.936L214.286 0.584911H239.871ZM226.043 26.5727H234.075C238.381 26.5727 240.92 24.5115 241.693 20.3891C241.803 19.7206 241.858 19.2471 241.858 18.9685C241.858 17.4644 241.361 16.2945 240.368 15.4589C239.429 14.6233 238.022 14.2055 236.145 14.2055H228.113L226.043 26.5727Z" fill="#DF2935"/>
+                <path d="M260.659 61C253.925 61 248.487 59.6073 244.347 56.8219C240.263 53.9808 238.22 49.8584 238.22 44.4547C238.22 44.0091 238.275 43.2292 238.386 42.115H255.525C255.36 44.0091 255.746 45.4853 256.684 46.5438C257.623 47.6022 259.058 48.1315 260.99 48.1315C262.591 48.1315 263.86 47.7694 264.799 47.0452C265.792 46.321 266.289 45.2904 266.289 43.9534C266.289 42.3936 265.572 41.1123 264.136 40.1095C262.756 39.1068 260.493 37.9369 257.347 36.5999C254.2 35.2629 251.606 34.0095 249.564 32.8396C247.521 31.6141 245.755 29.9707 244.265 27.9095C242.774 25.7926 242.029 23.1743 242.029 20.0547C242.029 15.988 243.023 12.5062 245.01 9.60944C246.997 6.65692 249.757 4.4286 253.29 2.92449C256.878 1.36467 260.962 0.584756 265.544 0.584756C269.684 0.584756 273.355 1.25325 276.556 2.59024C279.758 3.87152 282.242 5.73774 284.008 8.18889C285.83 10.64 286.741 13.5368 286.741 16.8793C286.741 17.7707 286.713 18.4391 286.658 18.8848H269.187C269.242 18.6063 269.27 18.2163 269.27 17.7149C269.27 16.378 268.856 15.3474 268.028 14.6232C267.2 13.8432 266.068 13.4533 264.633 13.4533C263.143 13.4533 261.928 13.8432 260.99 14.6232C260.107 15.3474 259.665 16.378 259.665 17.7149C259.665 19.1633 260.355 20.4168 261.735 21.4752C263.17 22.478 265.378 23.6757 268.359 25.0684C271.561 26.5725 274.183 27.9931 276.225 29.33C278.323 30.6113 280.117 32.3383 281.607 34.5109C283.098 36.6835 283.843 39.3575 283.843 42.5328C283.843 46.0424 282.904 49.2178 281.028 52.0589C279.151 54.8443 276.474 57.0447 272.996 58.6603C269.518 60.2201 265.406 61 260.659 61Z" fill="white"/>
+                <path d="M297.65 14.456L295.994 24.2328H314.624L312.389 36.6835H293.759L291.854 47.3794H312.968L310.733 60.4151H273.307L283.657 1.50394H321L318.764 14.456H297.65Z" fill="#DF2935"/>
+            </svg>
+        </div>
+        <nav>
+            <a href="/accueil.html">Accueil</a>
+            <a href="/genres.html">Genres</a>
+            <a href="/sagas.html">Sagas</a>
+            <a href="#">Films</a>
+            <a href="#">Séries</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>LE COMPTE DE MONTE-CRISTO</h1>
+        <p>
+            <b class="gras">Tous publics • 2h 58m</b>
+        </p>
+        <p class="resume">
+            Victime d’un complot, le jeune Edmond Dantès est arrêté le jour de son mariage pour un crime qu’il n’a pas commis. Après quatorze ans de détention au château d’If, il parvient à s’évader. Devenu immensément riche, il revient sous l’identité du comte de Monte-Cristo pour se venger des trois hommes qui l’ont trahi.  
+        </p>
+        <p class="genres">
+        Genres  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <b><a href="#">Aventure</a></b> &nbsp | &nbsp
+        <b><a href="#">Drame</a></b> &nbsp | &nbsp
+        <b><a href="#">Historique</a></b> &nbsp | &nbsp
+        <b><a href="#">Thriller</a></b> 
+        </p>
+        <div class="video-container">
+            <video controls class="video" id="video">
+                <source src="#"/>
+            </video>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
